@@ -10,6 +10,12 @@
           "fileImage": ""
         },
         {
+          "title": "Using Structure to Take Input and Display Book Information (By- Bibek Gautam)",
+          "code": "#include <stdio.h>\n\n// Define a structure to store book information\nstruct Book {\n    char title[100];\n    char author[100];\n    int pages;\n    float price;\n};\n\nint main() {\n    struct Book b;\n\n    // Taking input for book details\n    printf(\"Enter book title: \");\n    scanf(\" %[^\"]s\", b.title);\n    printf(\"Enter author name: \");\n    scanf(\" %[^\"]s\", b.author);\n    printf(\"Enter number of pages: \");\n    scanf(\"%d\", &b.pages);\n    printf(\"Enter price: \");\n    scanf(\"%f\", &b.price);\n\n    // Displaying book details\n    printf(\"\\nBook Information:\\n\");\n    printf(\"Title: %s\\n\", b.title);\n    printf(\"Author: %s\\n\", b.author);\n    printf(\"Pages: %d\\n\", b.pages);\n    printf(\"Price: %.2f\\n\", b.price);\n\n    return 0;\n}",
+          "outputImage": "",
+          "fileImage": ""
+        }, 
+        {
           "title": "30. Write down the differences between call by value and call by reference.-Aryan Thapaliya",
           "code": "This question does not require code to be written. View the output!",
           "outputImage": "./assets/filehandling_ii/answer.PNG",
